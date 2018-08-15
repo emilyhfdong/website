@@ -11,9 +11,11 @@ class Skills extends Component {
       />
       ))
     return (
-      <div className="Title">
-        <h3 className="skillsTitle">Skills</h3>
-        {allSkills}
+      <div className="skills">
+        <h3 className="skillsTitle">skills</h3>
+        <div className="skillsContainer">
+          {allSkills}
+        </div>
       </div>
     );
   }

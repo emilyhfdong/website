@@ -1,19 +1,23 @@
 const skills = [
   {
     group: 'Programming Languages',
-    skillList: ['JavaScript', 'MATLAB', 'C']
+    skillList: ['JavaScript', 'MATLAB', 'C', 'Ruby']
   },
   {
-    group: 'Frameworks, Libraries, and Environments',
-    skillList: ['NodeJS', 'Express', 'Knex', 'JQuery', 'Bootstrap', 'CSS', 'SASS', 'EJS', 'jQuery', 'AJAX', 'ReactJS']
+    group: 'Front End',
+    skillList: ['ReactJS', 'Redux', 'jQuery', 'Bootstrap', 'CSS', 'SASS', 'EJS', 'AJAX']
+  },
+  {
+    group: 'Back End',
+    skillList: ['Rails', 'NodeJS', 'Express']
   },
   {
     group: 'Databases',
-    skillList: ['PostgreSQL']
+    skillList: ['PostgreSQL', 'MongoDB','Knex', 'ActiveRecord']
   },
   {
     group: 'Currently Aquiring',
-    skillList: ['Ruby', 'Ruby on Rails', 'MongoDB']
+    skillList: ['React Native']
   },
 ]
 
