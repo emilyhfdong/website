@@ -1,0 +1,42 @@
+.title {
+  height: 100vh;
+  background-color: $lightPink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .name {
+    font-size: 40px;
+    margin-top: 0px;
+    color: white;
+    font-family: $serif;
+    letter-spacing: 2px;
+  }
+  .contactContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    .contact {
+      font-family: $thickCursive;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      color: $darkPink;
+      .fa {
+        margin-right: 0.5rem;
+        color: $navy;
+      }
+    }
+  }
+  .downArrow {
+    cursor: pointer;
+    .fa-long-arrow-down {
+      color: white;
+      font-size: 30px;
+    }
+    &:hover {
+      .fa-long-arrow-down {
+        color: $navy;
+      }
+    }
+  }
+}

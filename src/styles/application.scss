@@ -1,3 +1,23 @@
-h1 {
-  color: pink;
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Pacifico|Satisfy|Source+Sans+Pro:200|Josefin+Sans');
+
+$serif: "Abril Fatface";
+$thinCursive: "Satisfy";
+$thickCursive: "Pacifico";
+$thinFont: "Source Sans Pro";
+$capsFont: "Josefin Sans";
+
+$navy: #15304B;
+$lightPink: #F2BCA7;
+$darkPink: #DF836C;
+$gray: #CECED0;
+
+@import "./_navBar";
+@import "./_landing";
+@import "./_aboutMe";
+
+
+html, body {
+  font-family: $thinFont;
+  padding: 0px;
+  margin: 0px;
 }
