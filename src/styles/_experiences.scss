@@ -1,0 +1,78 @@
+.experiences {
+  height: 100vh;
+  background-color: $lightPink;
+  color: $navy;
+  .experiencesTitle {
+    margin: 0px;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-family: $thickCursive;
+    color: white;
+    font-size: 35px;
+  }
+  .experiencesDiv {
+    display: flex;
+    flex-direction: row;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: center;
+    .experience {
+      width: 30%;
+      margin: 1rem;
+      padding: 1rem;
+      border: 3px solid $darkPink;
+      .organization {
+        text-align: center;
+        font-family: $capsFont;
+        text-transform: uppercase;
+        color: $navy;
+        font-size: 20px;
+        margin-bottom: 0rem;
+      }
+      .position {
+        text-align: center;
+        margin: 0px;
+      }
+      .notes {
+        .note {
+
+        }
+      }
+    }
+  }
+  .educationList {
+    .educationTitle {
+      margin: 0px;
+      padding-top: 0rem;
+      margin-bottom: 1rem;
+      text-align: center;
+      font-family: $thickCursive;
+      color: white;
+      font-size: 35px;
+    }
+    .education {
+      text-align: center;
+      .program {
+        font-family: $capsFont;
+        text-transform: uppercase;
+        color: $navy;
+        font-size: 20px;
+        margin: 0.5rem;
+      }
+      .school {
+        margin: 0.5rem;
+
+      }
+      .year {
+        margin: 0.5rem;
+
+      }
+      .notes {
+        margin: 0.5rem;
+        margin-bottom: 2rem;
+
+      }
+    }
+  }
+}

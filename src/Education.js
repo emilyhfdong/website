@@ -4,10 +4,9 @@ class Education extends Component {
   render() {
     return (
       <div className="education">
-        <p>{this.props.school}</p>
-        <p>{this.props.program}</p>
-        <p>{this.props.year}</p>
-        <p>{this.props.notes}</p>
+        <p className="program">{this.props.program}</p>
+        <p className="school">{this.props.school} ({this.props.year})</p>
+        <p className="notes">{this.props.notes}</p>
       </div>
     );
   }

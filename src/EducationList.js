@@ -12,9 +12,10 @@ class EducationList extends Component {
         notes={education.notes}
       />
       ))
+      console.log(this.props.group)
     return (
-      <div className="education-list">
-        <p>{this.props.group}</p>
+      <div className="educationList">
+        <h3 className="educationTitle">education</h3>
         <ul>
           {allEducation}
         </ul>

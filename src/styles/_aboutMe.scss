@@ -56,13 +56,12 @@
     }
     .skillsContainer {
       width: 100%;
-
       .skill {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        margin-bottom: 1rem;
+        margin-bottom: 0.5rem;
         .skillGroupTitle {
           padding: 0.5rem;
           padding-top: 0.75rem;
@@ -74,6 +73,7 @@
           color: white;
           text-transform: uppercase;
           font-family: $capsFont;
+          font-size: 13px;
         }
         .skillList {
           display: flex;
@@ -84,17 +84,31 @@
             padding-left: 1rem;
             padding-right: 1rem;
             border-radius: 20px;
-            margin: 0.5rem;
+            margin: 0.25rem;
             background-color: $lightPink;
             color: $navy;
-            font-size: 14px;
-            // text-transform: uppercase;
+            font-size: 13px;
             font-family: $capsFont;
           }
         }
       }
     }
   }
+  .downArrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    cursor: pointer;
+    .fa-long-arrow-down {
+      color: white;
+      font-size: 30px;
+    }
+    &:hover {
+      .fa-long-arrow-down {
+        color: $navy;
+      }
+    }
+}
 }
 
 

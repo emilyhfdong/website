@@ -1,0 +1,61 @@
+.projects {
+  height: 100vh;
+  background-color: $darkPink;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  color: white;
+  .projectsTitle {
+    margin: 0px;
+    padding-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-family: $thickCursive;
+    color: white;
+    font-size: 35px;
+
+  }
+  .projectsDiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .project {
+      padding-right: 0.5rem;
+      padding-left: 1rem;
+      border: 3px solid $lightPink;
+      margin: 0.5rem;
+      width: 100%;
+      .projectName {
+        font-family: $capsFont;
+        text-transform: uppercase;
+        text-align: center;
+        color: white;
+      }
+      .notes {
+        .note {
+          text-align: center;
+        }
+      }
+      .technologies {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        .technology {
+          padding: 0.5rem;
+          padding-top: 0.75rem;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          border-radius: 20px;
+          margin: 0px;
+          margin-left: 0.25rem;
+          margin-right: 0.25rem;
+          background-color: $lightPink;
+          color: $navy;
+          font-size: 13px;
+          font-family: $capsFont;
+        }
+      }
+
+    }
+  }
+}

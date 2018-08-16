@@ -5,17 +5,20 @@ import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, 
 
 
 class AboutMe extends Component {
-  scrollToAboutMe = () => {
+  scrollToExperiences = () => {
     const options = {
       smooth: true,
     }
-    scroller.scrollTo('aboutMePage', options)
+    scroller.scrollTo('experiencesPage', options)
   }
   render() {
     return (
       <div className="aboutMe">
         <Summary/>
         <Skills/>
+        <div onClick={this.scrollToExperiences} className="downArrow">
+          <i className="fa fa-long-arrow-down animated infinite bounce "></i>
+        </div>
       </div>
     );
   }

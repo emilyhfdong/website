@@ -5,6 +5,8 @@ import Experiences from './Experiences.js'
 import Skills from './Skills.js'
 import EducationList from './EducationList.js'
 import NavBar from './NavBar.js'
+import Projects from './Projects.js'
+
 import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 
@@ -16,12 +18,19 @@ class App extends Component {
         <Element name="titlePage" className="element">
           <Title/>
         </Element>
+
         <Element name="aboutMePage" className="element">
           <AboutMe/>
         </Element>
-{/*        <Experiences/>
-        <Skills/>
-        <EducationList/>*/}
+
+        <Element name="experiencesPage" className="element">
+          <Experiences/>
+        </Element>
+
+        <Element name="projectsPage" className="element">
+          <Projects/>
+        </Element>
+
       </div>
     );
   }

@@ -7,7 +7,7 @@ const education = [
   },
   {
     school: 'McGill University',
-    program: 'Mechanical Engineering Bachelors',
+    program: 'Bachelor of Engineering (Mechanical)',
     year: '2018',
     notes: `Minor in Biomedical Engineering
             CGPA: 3.64`

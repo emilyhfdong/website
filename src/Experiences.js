@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Experience from './Experience.js'
 import experienceData from './data/experiences.js'
+import EducationList from './EducationList.js'
 
 class Experiences extends Component {
   render() {
@@ -14,8 +15,11 @@ class Experiences extends Component {
       ))
     return (
       <div className="experiences">
-        <h3>Experiences</h3>
-        {allExperiences}
+        <h3 className="experiencesTitle">technical/engineering experiences</h3>
+        <div className="experiencesDiv">
+          {allExperiences}
+        </div>
+        <EducationList/>
       </div>
     );
   }
